@@ -7,6 +7,13 @@ public class HargaEmas {
         Berat_Emas=3.2;
         Harga_Per_Gram=210000;
     }
+
+    public HargaEmas(double Berat_Emas, double Harga_Per_Gram) {
+        this.Berat_Emas = Berat_Emas;
+        this.Harga_Per_Gram = Harga_Per_Gram;
+    }
+    
+    
     
     void cetakInfo(){
         System.out.println("==================================");

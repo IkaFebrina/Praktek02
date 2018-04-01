@@ -29,5 +29,12 @@ public class HargaEmasAksi {
         anu.CetakHarga();
         System.out.println(); //untuk jarak
         System.out.println(); //untuk jarak
+        
+        
+        HargaEmas ane = new HargaEmas();
+        ane.cetakInfo();
+        
+        HargaEmas ano = new HargaEmas(5,3);
+        ano.cetakInfo();
     }
 }
