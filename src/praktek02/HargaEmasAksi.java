@@ -16,14 +16,17 @@ public class HargaEmasAksi {
         
         ana.cetakInfo();
         System.out.println("Harga Emas      = "+ana.HitungHarga());
+        ana.CetakHarga();
         System.out.println(); //untuk jarak
         System.out.println(); //untuk jarak
         ani.cetakInfo();
         System.out.println("Harga Emas      = "+ani.HitungHarga());
+        ana.CetakHarga();
         System.out.println(); //untuk jarak
         System.out.println(); //untuk jarak
         anu.cetakInfo();
         System.out.println("Harga Emas      = "+anu.HitungHarga());
+        anu.CetakHarga();
         System.out.println(); //untuk jarak
         System.out.println(); //untuk jarak
     }

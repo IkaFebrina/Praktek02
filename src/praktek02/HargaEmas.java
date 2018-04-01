@@ -15,4 +15,8 @@ public class HargaEmas {
         Harga=Berat_Emas*Harga_Per_Gram;
         return Harga;
     }
+    
+    void CetakHarga(){
+        System.out.println("Harganya adalah : "+HitungHarga());
+    }
 }
