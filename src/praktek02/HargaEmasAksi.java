@@ -13,5 +13,9 @@ public class HargaEmasAksi {
         
         anu.Berat_Emas = 4.3;
         anu.Harga_Per_Gram = 210000;
+        
+        ana.cetakInfo();
+        ani.cetakInfo();
+        anu.cetakInfo();
     }
 }
