@@ -9,4 +9,10 @@ public class HargaEmas {
         System.out.println("Harga_Per_Gram  :"+Harga_Per_Gram);
         System.out.println("==================================");
     }
+    
+    double HitungHarga(){
+        double Harga;
+        Harga=Berat_Emas*Harga_Per_Gram;
+        return Harga;
+    }
 }

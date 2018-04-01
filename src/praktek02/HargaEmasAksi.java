@@ -15,7 +15,16 @@ public class HargaEmasAksi {
         anu.Harga_Per_Gram = 210000;
         
         ana.cetakInfo();
+        System.out.println("Harga Emas      = "+ana.HitungHarga());
+        System.out.println(); //untuk jarak
+        System.out.println(); //untuk jarak
         ani.cetakInfo();
+        System.out.println("Harga Emas      = "+ani.HitungHarga());
+        System.out.println(); //untuk jarak
+        System.out.println(); //untuk jarak
         anu.cetakInfo();
+        System.out.println("Harga Emas      = "+anu.HitungHarga());
+        System.out.println(); //untuk jarak
+        System.out.println(); //untuk jarak
     }
 }
