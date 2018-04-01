@@ -2,6 +2,11 @@ package praktek02;
 public class HargaEmas {
     double Berat_Emas;
     double Harga_Per_Gram;
+
+    public HargaEmas() {
+        Berat_Emas=3.2;
+        Harga_Per_Gram=210000;
+    }
     
     void cetakInfo(){
         System.out.println("==================================");
